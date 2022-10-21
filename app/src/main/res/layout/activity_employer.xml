@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context=".EmployerActivity">
+    <TextView
+        android:id="@+id/employeregstr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Select your package"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/employeregstr"
+        android:text="Package guidelines"
+        android:textColor="#363A43"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/guide1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/guide"
+        android:text="Bronze- 5 Cvs per week @Kshs2500"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+    <TextView
+        android:id="@+id/guide2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/guide1"
+        android:gravity="start"
+        android:text="Silver- 10 Cvs per week @Ksh4000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/guide3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/guide2"
+        android:text="Platinum- 20 Cvs per week @Kshs7500"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bronze"
+        android:text="BRONZE"
+        android:textStyle="bold"
+        android:layout_below="@id/guide3"
+       android:gravity="center"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/silver"
+        android:text="SILVER"
+        android:textStyle="bold"
+        android:layout_below="@id/bronze"
+        android:gravity="center"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/platinum"
+        android:textStyle="bold"
+        android:text="PLATINUM"
+        android:layout_below="@id/silver"
+        android:gravity="center"
+        android:backgroundTint="@android:color/holo_purple"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>

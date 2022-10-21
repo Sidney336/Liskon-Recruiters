@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context=".DashboardActivity">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Register your Cv"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcome"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Painter"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvbtn"
+            android:text="UPLOAD CV"
+            android:layout_below="@id/welcome"
+            android:layout_alignEnd="@id/painter"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:id="@+id/carpenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cvbtn"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Carpenter"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvcarpenter"
+            android:text="UPLOAD CV"
+            android:layout_below="@id/painter"
+            android:layout_alignEnd="@id/carpenter"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:id="@+id/paytv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/carpenter"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="PayTv Installer"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvpaytv"
+            android:text="UPLOAD CV"
+            android:layout_below="@id/carpenter"
+            android:layout_alignEnd="@id/paytv"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp">
+        </com.google.android.material.button.MaterialButton>
+        <TextView
+            android:id="@+id/electrician"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/paytv"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Electrician"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvelectrician"
+            android:text="UPLOAD CV"
+            android:layout_below="@id/paytv"
+            android:layout_alignEnd="@id/electrician"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp">
+        </com.google.android.material.button.MaterialButton>
+        <TextView
+            android:id="@+id/plumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/electrician"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Plumber"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvplumber"
+            android:text="UPLOAD CV"
+            android:layout_below="@id/electrician"
+            android:layout_alignEnd="@id/plumber"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp">
+        </com.google.android.material.button.MaterialButton>
+        <TextView
+            android:id="@+id/fridge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plumber"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:text="Others"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvfridge"
+            android:text="UPLOAD CV"
+            android:layout_below="@id/plumber"
+            android:layout_alignEnd="@id/fridge"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp">
+        </com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:id="@+id/employer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_below="@id/fridge"
+        android:text="Are you an Employer?"
+        android:textColor="#363A43"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvemployer"
+        android:text="REGISTER HERE"
+        android:layout_below="@id/employer"
+        android:gravity="center"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp">
+    </com.google.android.material.button.MaterialButton>
+
+
+</RelativeLayout>

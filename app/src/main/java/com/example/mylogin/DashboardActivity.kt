@@ -27,7 +27,8 @@ class DashboardActivity : AppCompatActivity() {
         Employer_input = findViewById(R.id.cvemployer)
 
         Painter_input.setOnClickListener {
-            Toast.makeText(this, "CV Uploaded Successfully", Toast.LENGTH_SHORT).show()
+           Toast.makeText(this, )
+
         }
         Carpenter_input.setOnClickListener {
             Toast.makeText(this, "CV Uploaded Successfully", Toast.LENGTH_SHORT).show()
